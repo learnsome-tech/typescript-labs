@@ -1,0 +1,2 @@
+[order_svc] took 20ms
+Processed order ord-77 with priority true

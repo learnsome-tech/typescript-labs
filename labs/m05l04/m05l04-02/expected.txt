@@ -1,0 +1,2 @@
+Default status: success
+Custom error fields: email, password

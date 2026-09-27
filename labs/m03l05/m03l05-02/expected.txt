@@ -1,0 +1,2 @@
+SQL: SELECT * FROM sites WHERE lat = ? AND lng = ?
+Params (2): 51.5074, -0.1278

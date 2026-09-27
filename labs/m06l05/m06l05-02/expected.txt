@@ -1,0 +1,2 @@
+Username updated to: octocat
+Email updated to: octo@github.com

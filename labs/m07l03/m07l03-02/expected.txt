@@ -1,0 +1,2 @@
+Primary hex: #3B82F6
+Doubled RGB: 32, 370, 258
