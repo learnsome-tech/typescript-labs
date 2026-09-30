@@ -1,0 +1,21 @@
+{
+  "lab": "m02l04-03",
+  "lesson": "m02l04",
+  "title": "Patcher",
+  "mode": "graded",
+  "runner": "node-ts",
+  "command": "node patcher.ts",
+  "main": "patcher.ts",
+  "files": [
+    "patcher.ts",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "node"
+  ],
+  "note": null
+}

@@ -1,0 +1,21 @@
+{
+  "lab": "m07l02-02",
+  "lesson": "m07l02",
+  "title": "Augmentation",
+  "mode": "graded",
+  "runner": "node-ts",
+  "command": "node augmentation.ts",
+  "main": "augmentation.ts",
+  "files": [
+    "augmentation.ts",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "node"
+  ],
+  "note": null
+}

@@ -1,0 +1,21 @@
+{
+  "lab": "m07l01-02",
+  "lesson": "m07l01",
+  "title": "Server",
+  "mode": "graded",
+  "runner": "node-ts",
+  "command": "node server.ts",
+  "main": "server.ts",
+  "files": [
+    "run.sh",
+    "server.ts",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "node"
+  ],
+  "note": null
+}

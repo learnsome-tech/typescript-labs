@@ -1,0 +1,23 @@
+{
+  "lab": "m02l02-04",
+  "lesson": "m02l02",
+  "title": "Config",
+  "mode": "run",
+  "runner": "node-ts",
+  "command": "node config.ts",
+  "main": "config.ts",
+  "files": [
+    "config.ts",
+    "dispatcher.ts",
+    "run.sh",
+    "setup.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "node"
+  ],
+  "note": "the lesson recorded its output with `bash setup.sh >/dev/null 2>&1; bun run config.ts`, not the way the site runs it, so the output is not compared."
+}

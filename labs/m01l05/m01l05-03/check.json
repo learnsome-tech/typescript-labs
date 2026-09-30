@@ -1,0 +1,22 @@
+{
+  "lab": "m01l05-03",
+  "lesson": "m01l05",
+  "title": "Verify Env",
+  "mode": "run",
+  "runner": "node-ts",
+  "command": "node verify_env.ts",
+  "main": "verify_env.ts",
+  "files": [
+    "run.sh",
+    "setup.sh",
+    "tsconfig.json",
+    "verify_env.ts"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "node"
+  ],
+  "note": "the lesson recorded its output with `bash setup.sh >/dev/null 2>&1; bun run verify_env.ts`, not the way the site runs it, so the output is not compared."
+}

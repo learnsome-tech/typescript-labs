@@ -1,0 +1,21 @@
+{
+  "lab": "m04l02-03",
+  "lesson": "m04l02",
+  "title": "Error Handler",
+  "mode": "graded",
+  "runner": "node-ts",
+  "command": "node error_handler.ts",
+  "main": "error_handler.ts",
+  "files": [
+    "error_handler.ts",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "node"
+  ],
+  "note": null
+}

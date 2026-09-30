@@ -1,0 +1,19 @@
+{
+  "lab": "m07l04-02",
+  "lesson": "m07l04",
+  "title": "Payment",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "payment.ts",
+  "files": [
+    "payment.ts",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It uses TypeScript decorators, which Node's built-in TypeScript support (what the lab sandbox runs) does not handle."
+}

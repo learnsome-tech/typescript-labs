@@ -1,19 +1,35 @@
-# Exhaustive Narrowing With never In Production Handlers
+# m04l05 · Exhaustive Narrowing With never In Production Handlers
 
-**Course**: [Production TypeScript](https://learnsome.tech/courses/typescript-course)  
-**Module**: Type Narrowing And Control Flow  
-**Lesson**: `m04l05`
+Module 4: Type Narrowing And Control Flow · lesson 4.5 · Pro · [Open the lesson](https://learnsome.tech/learn/typescript-course/m04l05)
 
-## Links
+**Goal:** You can synthesize all narrowing techniques to build bulletproof domain event dispatchers with guaranteed compile-time exhaustiveness.
 
-- [Watch lesson](https://learnsome.tech/courses/typescript-course/watch?lesson=m04l05)
-- [Handbook](https://learnsome.tech/courses/typescript-course/book#lesson-4-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l05-02](m04l05-02/) | Event Dispatcher | Graded |
 
-- [`m04l05-02/`](m04l05-02/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Build a deployment status notifier
+
+1. Create a DeploymentEvent union: started, healthCheckPassed, or failed.
+2. Add a durationSeconds number only to healthCheckPassed.
+3. Add an errorMessage string only to failed.
+4. Implement an exhaustive switch statement returning formatted Slack notifications.
+
+> **Hint:** Ensure the default branch calls assertNever to maintain the compile-time safety guarantee.
+
+## Check yourself
+
+- How does control flow analysis eliminate the need for manual type casting?
+- When should you use the in operator instead of a discriminated union?
+- What is the difference in calling conventions between a type predicate and an assertion function?
+- How does assertNever protect distributed event processing from silent failures?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Production TypeScript on LearnSome.tech](https://learnsome.tech/courses/typescript-course)

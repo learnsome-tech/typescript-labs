@@ -1,0 +1,21 @@
+{
+  "lab": "m02l03-03",
+  "lesson": "m02l03",
+  "title": "Webhook",
+  "mode": "graded",
+  "runner": "node-ts",
+  "command": "node webhook.ts",
+  "main": "webhook.ts",
+  "files": [
+    "run.sh",
+    "tsconfig.json",
+    "webhook.ts"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "node"
+  ],
+  "note": null
+}

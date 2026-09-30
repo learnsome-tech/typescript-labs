@@ -1,0 +1,21 @@
+{
+  "lab": "m01l04-02",
+  "lesson": "m01l04",
+  "title": "Inference",
+  "mode": "graded",
+  "runner": "node-ts",
+  "command": "node inference.ts",
+  "main": "inference.ts",
+  "files": [
+    "inference.ts",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "node"
+  ],
+  "note": null
+}

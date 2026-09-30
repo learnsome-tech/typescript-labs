@@ -1,0 +1,23 @@
+{
+  "lab": "m01l01-03",
+  "lesson": "m01l01",
+  "title": "Contract",
+  "mode": "run",
+  "runner": "node-ts",
+  "command": "node contract.ts",
+  "main": "contract.ts",
+  "files": [
+    "contract.ts",
+    "contract_error.ts",
+    "run.sh",
+    "setup.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "node"
+  ],
+  "note": "the lesson recorded its output with `bash setup.sh >/dev/null 2>&1; bun run contract_error.ts`, not the way the site runs it, so the output is not compared."
+}

@@ -1,0 +1,21 @@
+{
+  "lab": "m06l01-02",
+  "lesson": "m06l01",
+  "title": "User Dtos",
+  "mode": "graded",
+  "runner": "node-ts",
+  "command": "node user_dtos.ts",
+  "main": "user_dtos.ts",
+  "files": [
+    "run.sh",
+    "tsconfig.json",
+    "user_dtos.ts"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "node"
+  ],
+  "note": null
+}

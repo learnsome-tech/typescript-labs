@@ -1,0 +1,21 @@
+{
+  "lab": "m07l05-02",
+  "lesson": "m07l05",
+  "title": "Task Client",
+  "mode": "graded",
+  "runner": "node-ts",
+  "command": "node task_client.ts",
+  "main": "task_client.ts",
+  "files": [
+    "run.sh",
+    "task_client.ts",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "node"
+  ],
+  "note": null
+}

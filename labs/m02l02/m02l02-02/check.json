@@ -1,0 +1,21 @@
+{
+  "lab": "m02l02-02",
+  "lesson": "m02l02",
+  "title": "Dispatcher",
+  "mode": "graded",
+  "runner": "node-ts",
+  "command": "node dispatcher.ts",
+  "main": "dispatcher.ts",
+  "files": [
+    "dispatcher.ts",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "node"
+  ],
+  "note": null
+}

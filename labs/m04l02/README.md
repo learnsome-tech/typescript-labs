@@ -1,19 +1,35 @@
-# The in Operator And Instanceof Narrowing
+# m04l02 · The in Operator And Instanceof Narrowing
 
-**Course**: [Production TypeScript](https://learnsome.tech/courses/typescript-course)  
-**Module**: Type Narrowing And Control Flow  
-**Lesson**: `m04l02`
+Module 4: Type Narrowing And Control Flow · lesson 4.2 · Pro · [Open the lesson](https://learnsome.tech/learn/typescript-course/m04l02)
 
-## Links
+**Goal:** You can narrow heterogeneous object shapes using the in operator and distinguish class hierarchies at runtime using instanceof.
 
-- [Watch lesson](https://learnsome.tech/courses/typescript-course/watch?lesson=m04l02)
-- [Handbook](https://learnsome.tech/courses/typescript-course/book#lesson-4-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l02-03](m04l02-03/) | Error Handler | Graded |
 
-- [`m04l02-03/`](m04l02-03/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Build a multi-auth token verifier
+
+1. Define an interface JwtToken with sub and exp number properties.
+2. Define an interface ApiKey with keyId and permissions array.
+3. Write a verifyCredentials function accepting a union of both tokens.
+4. Use the in operator to distinguish between JWT and API key tokens.
+
+> **Hint:** Check if 'exp' in token to isolate the JWT token, or 'keyId' in token to isolate the API key.
+
+## Check yourself
+
+- How does the in operator allow narrowing without a discriminant tag?
+- Why can instanceof only be used with classes and not with interfaces?
+- What makes instanceof the standard choice for error handling in catch blocks?
+- What is the limitation of instanceof when objects cross browser iframes or worker realms?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Production TypeScript on LearnSome.tech](https://learnsome.tech/courses/typescript-course)

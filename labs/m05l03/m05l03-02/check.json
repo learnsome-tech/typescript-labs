@@ -1,0 +1,21 @@
+{
+  "lab": "m05l03-02",
+  "lesson": "m05l03",
+  "title": "Get Property",
+  "mode": "graded",
+  "runner": "node-ts",
+  "command": "node get_property.ts",
+  "main": "get_property.ts",
+  "files": [
+    "get_property.ts",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "node"
+  ],
+  "note": null
+}

@@ -1,0 +1,21 @@
+{
+  "lab": "m06l05-02",
+  "lesson": "m06l05",
+  "title": "Event Listeners",
+  "mode": "graded",
+  "runner": "node-ts",
+  "command": "node event_listeners.ts",
+  "main": "event_listeners.ts",
+  "files": [
+    "event_listeners.ts",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "node"
+  ],
+  "note": null
+}

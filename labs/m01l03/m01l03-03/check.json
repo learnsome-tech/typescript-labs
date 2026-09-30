@@ -1,0 +1,21 @@
+{
+  "lab": "m01l03-03",
+  "lesson": "m01l03",
+  "title": "Strict Demo",
+  "mode": "graded",
+  "runner": "node-ts",
+  "command": "node strict_demo.ts",
+  "main": "strict_demo.ts",
+  "files": [
+    "run.sh",
+    "strict_demo.ts",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "node"
+  ],
+  "note": null
+}

@@ -1,0 +1,21 @@
+{
+  "lab": "m04l01-02",
+  "lesson": "m04l01",
+  "title": "Sanitizer",
+  "mode": "graded",
+  "runner": "node-ts",
+  "command": "node sanitizer.ts",
+  "main": "sanitizer.ts",
+  "files": [
+    "run.sh",
+    "sanitizer.ts",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "node"
+  ],
+  "note": null
+}

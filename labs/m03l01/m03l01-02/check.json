@@ -1,0 +1,21 @@
+{
+  "lab": "m03l01-02",
+  "lesson": "m03l01",
+  "title": "Context",
+  "mode": "graded",
+  "runner": "node-ts",
+  "command": "node context.ts",
+  "main": "context.ts",
+  "files": [
+    "context.ts",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "node"
+  ],
+  "note": null
+}

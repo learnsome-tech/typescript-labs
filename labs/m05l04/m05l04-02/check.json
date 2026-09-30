@@ -1,0 +1,21 @@
+{
+  "lab": "m05l04-02",
+  "lesson": "m05l04",
+  "title": "Api Envelope",
+  "mode": "graded",
+  "runner": "node-ts",
+  "command": "node api_envelope.ts",
+  "main": "api_envelope.ts",
+  "files": [
+    "api_envelope.ts",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "node"
+  ],
+  "note": null
+}

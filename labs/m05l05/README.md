@@ -1,19 +1,35 @@
-# Const Type Parameters: Retaining Literal Types In Functions
+# m05l05 · Const Type Parameters: Retaining Literal Types In Functions
 
-**Course**: [Production TypeScript](https://learnsome.tech/courses/typescript-course)  
-**Module**: Generics And Parameterized Types  
-**Lesson**: `m05l05`
+Module 5: Generics And Parameterized Types · lesson 5.5 · Pro · [Open the lesson](https://learnsome.tech/learn/typescript-course/m05l05)
 
-## Links
+**Goal:** You can apply const type parameters to preserve exact literal types and readonly tuple structures without requiring caller-side const assertions.
 
-- [Watch lesson](https://learnsome.tech/courses/typescript-course/watch?lesson=m05l05)
-- [Handbook](https://learnsome.tech/courses/typescript-course/book#lesson-5-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m05l05-02](m05l05-02/) | Routes | Graded |
 
-- [`m05l05-02/`](m05l05-02/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Build a literal event subscription registry
+
+1. Author a function registerEvents parameterized by const T extending readonly string[].
+2. Return the passed array directly.
+3. Pass an array containing userCreated and userDeleted without as const.
+4. Confirm that indexed access on the first element is the literal string userCreated.
+
+> **Hint:** Prefix the generic type parameter with the const modifier.
+
+## Check yourself
+
+- Why was caller-side as const burdensome for library consumers prior to TypeScript five?
+- Where is the const keyword placed when declaring a const type parameter?
+- Why are structures inferred by const type parameters treated as readonly?
+- What architectural role do const type parameters play in route and event definitions?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Production TypeScript on LearnSome.tech](https://learnsome.tech/courses/typescript-course)

@@ -1,0 +1,23 @@
+{
+  "lab": "m01l04-04",
+  "lesson": "m01l04",
+  "title": "Contextual",
+  "mode": "run",
+  "runner": "node-ts",
+  "command": "node contextual.ts",
+  "main": "contextual.ts",
+  "files": [
+    "contextual.ts",
+    "inference.ts",
+    "run.sh",
+    "setup.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "node"
+  ],
+  "note": "the lesson recorded its output with `bash setup.sh >/dev/null 2>&1; bun run contextual.ts`, not the way the site runs it, so the output is not compared."
+}

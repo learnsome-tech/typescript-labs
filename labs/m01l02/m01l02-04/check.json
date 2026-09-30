@@ -1,0 +1,23 @@
+{
+  "lab": "m01l02-04",
+  "lesson": "m01l02",
+  "title": "Calculator",
+  "mode": "run",
+  "runner": "node-ts",
+  "command": "node calculator.ts",
+  "main": "calculator.ts",
+  "files": [
+    "calculator.ts",
+    "check_types.ts",
+    "run.sh",
+    "setup.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "node"
+  ],
+  "note": "the lesson recorded its output with `bash setup.sh >/dev/null 2>&1; bun run check_types.ts`, not the way the site runs it, so the output is not compared."
+}
